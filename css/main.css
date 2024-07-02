@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+body{
+    background-image: url(../images/orqa\ fon.jpg);
+    align-items: center;
+    justify-content: center;
+}
+.el-list{
+    align-items: center;
+    justify-content: space-between;   
+}
+.button-class{
+    margin-top: 121px;
+    margin-left: 800px;
+    margin-bottom: 24px;
+    width: 540px;
+    padding: 17px 0;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(94, 84, 164);
+    transition: 0.3s all ease;
+}
+.button-class:hover{
+    color: rgb(94, 84, 164);
+    background-color: white;
+}
+.el-form {
+    margin-left: 800px;
+    width: 540px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+.form-input {
+   width: 460px; 
+   padding: 15px 0 15px 32px;
+   border: 1px solid #dedede;
+   font-size: 16px;
+   outline: none;
+   border-radius: 8px;
+   font-weight: 600;
+}
+.form-input:focus{
+    border-color: #5e54a4;
+}
+.form-button {
+    width: 465px;
+    padding: 15px 0;
+    background-color: #38cc8b;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    transition: 0.3s all ease;
+}
+.form-button:hover{
+    color: rgb(56, 204, 139);
+    background-color: white
+}
+.form-text {
+   font-size: 11px;
+   font-weight: 700;
+   line-height: 26px;
+   letter-spacing: 0px;
+   text-align: center;
+   color: rgb(186, 183, 212);
+}
+.form-span{
+    color: rgb(255, 121, 121);
+}
+
+
+
+
+.hero-wrapper {
+    margin-left: 50px;
+}
+.hero-title {
+    margin-bottom: 24px;
+    width: 525px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: -0.52px;
+}
+.hero-text {
+    width: 525px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+}
